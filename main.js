@@ -23,19 +23,18 @@ const division = numero2 !== 0 ? numero1 / numero2 : "No se puede dividir por ce
 console.log(saludo);
 console.log(informacion);
 
-
 console.log("Resultado de la suma: " + suma);
 console.log("Resultado de la resta: " + resta);
 console.log("Resultado de la multiplicación: " + multiplicacion);
 console.log("Resultado de la división: " + division);
 
-// Mostrar mensaje mediante alert
-alert(
-    "Hola " + nombre + "!\n" +
-    "Tienes " + edad + " años.\n\n" +
-    "Resultados matemáticos:\n" +
-    "Suma: " + suma + "\n" +
-    "Resta: " + resta + "\n" +
-    "Multiplicación: " + multiplicacion + "\n" +
-    "División: " + division
-);
+alert(`
+Hola ${nombre}
+Tienes ${edad} años.
+
+Resultados matemáticos:
+Suma: ${suma}
+Resta: ${resta}
+Multiplicación: ${multiplicacion}
+División: ${division}
+`);
