@@ -3,13 +3,13 @@
 const nombre = prompt("¿Cuál es tu nombre?");
 const edad = Number(prompt("¿Cuántos años tienes?"));
 
-const numero1 = Number(prompt("Elegí un número:"));
-const numero2 = Number(prompt("Elegí otro número:"));
+let numero1 = Number(prompt("Elegí un número:"));
+let numero2 = Number(prompt("Elegí otro número:"));
 
 // Concatenación de strings
 
 const saludo = "Hola " + nombre + ", arracando esta nueva aventura de JavaScript!";
-const informacion = "Tu nombre es " + nombre + " y tienes " + edad + " años.";
+const informacion = "Mi nombre es " + nombre + " y tengo " + edad + " años.";
 
 // Operaciones matemáticas
 
